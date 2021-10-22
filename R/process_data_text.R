@@ -31,4 +31,6 @@ df<- data.frame(word = names(org),freq=org) #dataframe para vizualização
 
 head (df,10) # visualização das 10 palavras mais frequentes
 set.seed(300)
-wordcloud2(df) #elaboração da nuvem de palavras
+
+wordcloud2(df, backgroundColor = '#ffdfff') #elaboração da nuvem de palavras
+
