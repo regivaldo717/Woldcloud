@@ -11,7 +11,7 @@ library(wordcloud2)
 getSources()
 getReaders()
 
-redac<- VCorpus(DirSource("C:/Users/baixi/OneDrive/github/palavras/textos", encoding="UTF-8"),readerControl = list(reader=readPlain,language='por') )
+redac<- VCorpus(DirSource("C:/Users/baixi/OneDrive/github/Woldcloud/min_text/textos/", encoding="UTF-8"),readerControl = list(reader=readPlain,language='por') )
 inspect(redac)
 
 stopwords('portuguese')
